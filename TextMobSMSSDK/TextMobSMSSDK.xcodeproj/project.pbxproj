@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E6C811F7DFD9D341B92D216 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02302F1E78C44AD2E1559642 /* libPods.a */; };
+		549373EB1D2A4787008D539D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549373EA1D2A4787008D539D /* main.m */; };
+		549373EE1D2A4787008D539D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549373ED1D2A4787008D539D /* AppDelegate.m */; };
+		549373F41D2A4787008D539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549373F21D2A4787008D539D /* Main.storyboard */; };
+		549373F71D2A4787008D539D /* TextMobSMSSDK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 549373F51D2A4787008D539D /* TextMobSMSSDK.xcdatamodeld */; };
+		549373F91D2A4787008D539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549373F81D2A4787008D539D /* Assets.xcassets */; };
+		549373FC1D2A4787008D539D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549373FA1D2A4787008D539D /* LaunchScreen.storyboard */; };
+		549374071D2A4787008D539D /* TextMobSMSSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549374061D2A4787008D539D /* TextMobSMSSDKTests.m */; };
+		549374121D2A4788008D539D /* TextMobSMSSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549374111D2A4788008D539D /* TextMobSMSSDKUITests.m */; };
+		549374211D2A4903008D539D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549374201D2A4903008D539D /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		549374031D2A4787008D539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549373DE1D2A4787008D539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549373E51D2A4787008D539D;
+			remoteInfo = TextMobSMSSDK;
+		};
+		5493740E1D2A4788008D539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549373DE1D2A4787008D539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549373E51D2A4787008D539D;
+			remoteInfo = TextMobSMSSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02302F1E78C44AD2E1559642 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		549373E61D2A4787008D539D /* TextMobSMSSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextMobSMSSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		549373EA1D2A4787008D539D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		549373EC1D2A4787008D539D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		549373ED1D2A4787008D539D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		549373F31D2A4787008D539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		549373F61D2A4787008D539D /* TextMobSMSSDK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextMobSMSSDK.xcdatamodel; sourceTree = "<group>"; };
+		549373F81D2A4787008D539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		549373FB1D2A4787008D539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		549373FD1D2A4787008D539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549374021D2A4787008D539D /* TextMobSMSSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMobSMSSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549374061D2A4787008D539D /* TextMobSMSSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMobSMSSDKTests.m; sourceTree = "<group>"; };
+		549374081D2A4787008D539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5493740D1D2A4787008D539D /* TextMobSMSSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMobSMSSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		549374111D2A4788008D539D /* TextMobSMSSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMobSMSSDKUITests.m; sourceTree = "<group>"; };
+		549374131D2A4788008D539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5493741F1D2A4903008D539D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		549374201D2A4903008D539D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		741D0841C337A24CA91E2299 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B03FCBE3809FDD1E649B43B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549373E31D2A4787008D539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6C811F7DFD9D341B92D216 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549373FF1D2A4787008D539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5493740A1D2A4787008D539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549373DD1D2A4787008D539D = {
+			isa = PBXGroup;
+			children = (
+				549373E81D2A4787008D539D /* TextMobSMSSDK */,
+				549374051D2A4787008D539D /* TextMobSMSSDKTests */,
+				549374101D2A4788008D539D /* TextMobSMSSDKUITests */,
+				549373E71D2A4787008D539D /* Products */,
+				C8BB05ED1177DEF9491C39AA /* Pods */,
+				ACA517A190376A27E5BED590 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		549373E71D2A4787008D539D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549373E61D2A4787008D539D /* TextMobSMSSDK.app */,
+				549374021D2A4787008D539D /* TextMobSMSSDKTests.xctest */,
+				5493740D1D2A4787008D539D /* TextMobSMSSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549373E81D2A4787008D539D /* TextMobSMSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				549373EC1D2A4787008D539D /* AppDelegate.h */,
+				549373ED1D2A4787008D539D /* AppDelegate.m */,
+				5493741F1D2A4903008D539D /* RootViewController.h */,
+				549374201D2A4903008D539D /* RootViewController.m */,
+				549373F21D2A4787008D539D /* Main.storyboard */,
+				549373F81D2A4787008D539D /* Assets.xcassets */,
+				549373FA1D2A4787008D539D /* LaunchScreen.storyboard */,
+				549373FD1D2A4787008D539D /* Info.plist */,
+				549373F51D2A4787008D539D /* TextMobSMSSDK.xcdatamodeld */,
+				549373E91D2A4787008D539D /* Supporting Files */,
+			);
+			path = TextMobSMSSDK;
+			sourceTree = "<group>";
+		};
+		549373E91D2A4787008D539D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				549373EA1D2A4787008D539D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		549374051D2A4787008D539D /* TextMobSMSSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				549374061D2A4787008D539D /* TextMobSMSSDKTests.m */,
+				549374081D2A4787008D539D /* Info.plist */,
+			);
+			path = TextMobSMSSDKTests;
+			sourceTree = "<group>";
+		};
+		549374101D2A4788008D539D /* TextMobSMSSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549374111D2A4788008D539D /* TextMobSMSSDKUITests.m */,
+				549374131D2A4788008D539D /* Info.plist */,
+			);
+			path = TextMobSMSSDKUITests;
+			sourceTree = "<group>";
+		};
+		ACA517A190376A27E5BED590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02302F1E78C44AD2E1559642 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BB05ED1177DEF9491C39AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B03FCBE3809FDD1E649B43B5 /* Pods.debug.xcconfig */,
+				741D0841C337A24CA91E2299 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549373E51D2A4787008D539D /* TextMobSMSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549374161D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDK" */;
+			buildPhases = (
+				E09FF5940DEA0E6432C749C5 /* Check Pods Manifest.lock */,
+				549373E21D2A4787008D539D /* Sources */,
+				549373E31D2A4787008D539D /* Frameworks */,
+				549373E41D2A4787008D539D /* Resources */,
+				9627463791B64956A452109E /* Embed Pods Frameworks */,
+				BD0CB9D84F6D946EC95F2F5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextMobSMSSDK;
+			productName = TextMobSMSSDK;
+			productReference = 549373E61D2A4787008D539D /* TextMobSMSSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		549374011D2A4787008D539D /* TextMobSMSSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549374191D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDKTests" */;
+			buildPhases = (
+				549373FE1D2A4787008D539D /* Sources */,
+				549373FF1D2A4787008D539D /* Frameworks */,
+				549374001D2A4787008D539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549374041D2A4787008D539D /* PBXTargetDependency */,
+			);
+			name = TextMobSMSSDKTests;
+			productName = TextMobSMSSDKTests;
+			productReference = 549374021D2A4787008D539D /* TextMobSMSSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5493740C1D2A4787008D539D /* TextMobSMSSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5493741C1D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDKUITests" */;
+			buildPhases = (
+				549374091D2A4787008D539D /* Sources */,
+				5493740A1D2A4787008D539D /* Frameworks */,
+				5493740B1D2A4787008D539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5493740F1D2A4788008D539D /* PBXTargetDependency */,
+			);
+			name = TextMobSMSSDKUITests;
+			productName = TextMobSMSSDKUITests;
+			productReference = 5493740D1D2A4787008D539D /* TextMobSMSSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549373DE1D2A4787008D539D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nerv;
+				TargetAttributes = {
+					549373E51D2A4787008D539D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					549374011D2A4787008D539D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 549373E51D2A4787008D539D;
+					};
+					5493740C1D2A4787008D539D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 549373E51D2A4787008D539D;
+					};
+				};
+			};
+			buildConfigurationList = 549373E11D2A4787008D539D /* Build configuration list for PBXProject "TextMobSMSSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 549373DD1D2A4787008D539D;
+			productRefGroup = 549373E71D2A4787008D539D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549373E51D2A4787008D539D /* TextMobSMSSDK */,
+				549374011D2A4787008D539D /* TextMobSMSSDKTests */,
+				5493740C1D2A4787008D539D /* TextMobSMSSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549373E41D2A4787008D539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549373FC1D2A4787008D539D /* LaunchScreen.storyboard in Resources */,
+				549373F91D2A4787008D539D /* Assets.xcassets in Resources */,
+				549373F41D2A4787008D539D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549374001D2A4787008D539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5493740B1D2A4787008D539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9627463791B64956A452109E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0CB9D84F6D946EC95F2F5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09FF5940DEA0E6432C749C5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549373E21D2A4787008D539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549373EE1D2A4787008D539D /* AppDelegate.m in Sources */,
+				549373F71D2A4787008D539D /* TextMobSMSSDK.xcdatamodeld in Sources */,
+				549374211D2A4903008D539D /* RootViewController.m in Sources */,
+				549373EB1D2A4787008D539D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549373FE1D2A4787008D539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549374071D2A4787008D539D /* TextMobSMSSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549374091D2A4787008D539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549374121D2A4788008D539D /* TextMobSMSSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		549374041D2A4787008D539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549373E51D2A4787008D539D /* TextMobSMSSDK */;
+			targetProxy = 549374031D2A4787008D539D /* PBXContainerItemProxy */;
+		};
+		5493740F1D2A4788008D539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549373E51D2A4787008D539D /* TextMobSMSSDK */;
+			targetProxy = 5493740E1D2A4788008D539D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		549373F21D2A4787008D539D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549373F31D2A4787008D539D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		549373FA1D2A4787008D539D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549373FB1D2A4787008D539D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549374141D2A4788008D539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		549374151D2A4788008D539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		549374171D2A4788008D539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03FCBE3809FDD1E649B43B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextMobSMSSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		549374181D2A4788008D539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741D0841C337A24CA91E2299 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextMobSMSSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5493741A1D2A4788008D539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextMobSMSSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMobSMSSDK.app/TextMobSMSSDK";
+			};
+			name = Debug;
+		};
+		5493741B1D2A4788008D539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextMobSMSSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMobSMSSDK.app/TextMobSMSSDK";
+			};
+			name = Release;
+		};
+		5493741D1D2A4788008D539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextMobSMSSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextMobSMSSDK;
+			};
+			name = Debug;
+		};
+		5493741E1D2A4788008D539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextMobSMSSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongweilai.TextMobSMSSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextMobSMSSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549373E11D2A4787008D539D /* Build configuration list for PBXProject "TextMobSMSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549374141D2A4788008D539D /* Debug */,
+				549374151D2A4788008D539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549374161D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549374171D2A4788008D539D /* Debug */,
+				549374181D2A4788008D539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549374191D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5493741A1D2A4788008D539D /* Debug */,
+				5493741B1D2A4788008D539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5493741C1D2A4788008D539D /* Build configuration list for PBXNativeTarget "TextMobSMSSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5493741D1D2A4788008D539D /* Debug */,
+				5493741E1D2A4788008D539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		549373F51D2A4787008D539D /* TextMobSMSSDK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				549373F61D2A4787008D539D /* TextMobSMSSDK.xcdatamodel */,
+			);
+			currentVersion = 549373F61D2A4787008D539D /* TextMobSMSSDK.xcdatamodel */;
+			path = TextMobSMSSDK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 549373DE1D2A4787008D539D /* Project object */;
+}
